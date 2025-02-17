@@ -1,0 +1,42 @@
+# Файлы и папки PyCharm
+.idea/
+
+# Файлы кэша, виртуального окружения и зависимостей
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# Лог-файлы и временные файлы
+*.log
+*.tmp
+
+# Конфигурационные файлы окружения
+.env
+.env.local
+*.envrc
+
+# Файлы тестирования и отладочной информации
+.coverage
+.tox/
+pytest_cache/
+nosetests.xml
+junit.xml
+
+# Файлы зависимостей и установленных библиотек
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Файлы Jupyter Notebook
+.ipynb_checkpoints/
+
+# Файлы CI/CD и артефакты сборки
+dist/
+build/
+*.egg-info/
+
+
+
